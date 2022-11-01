@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.author {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000000;
+}
+
+.block-people {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.block-people:nth-child(2), .block-people:nth-child(5) {
+  padding-top: 100px;
+}
+
+.def-us {
+  width: 439px;
+  font-size: 18px;
+}
+
+.function {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 10px;
+}
+
+.function, .title {
+  font-family: 'PT Serif', sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #A9A9A9;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 215px;
+  height: 234px;
+}
+
+img {
+  width: 238px;
+  height: 341px;
+}
+
+main {
+  padding-left: 240px;
+  padding-right: 240px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-people {
+  display: flex;
+}
+
+.team-name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.who-we-are {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px){
+  
+  .block-people {
+    margin-left: 10px;
+  }
+
+  .block-people:nth-child(2), .block-people:nth-child(4), .block-people:nth-child(6) {
+    margin-top: 50px;
+  }
+
+  .block-people:nth-child(2), .block-people:nth-child(5) {
+    padding-top: 0;
+  }
+
+  .def-us {
+    width: 333px;
+    font-size: 14px;
+  }
+
+  .function {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  header {
+    display: block;
+    align-items: none;
+    justify-content: none;
+    gap: none;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 19px;
+  }
+
+  img {
+    width: 140px;
+    height: 226px;
+  }
+
+  main {
+    padding-left: 19px;
+    padding-right: 17px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .team-name {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .who-we-are {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 38px;
+  }
+}
